@@ -106,6 +106,11 @@ declare module 'react-native-slider' {
     thumbImage?: ImageSourcePropType
 
     /**
+     * The style applied to the thumb image.
+     */
+    thumbImageStyle?: StyleProp<ViewStyle>
+
+    /**
      * Set this to true to visually see the thumb touch rect in green.
      */
     debugTouchArea?: boolean
